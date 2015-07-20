@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/hello_world" />
+    
+    <com.webcash.sws.comm.ui.ExpandableTextView
+        android:text="I know this but as i mention in my answer: 'The sad thing is that i can't find this no where in the developers.android guide and also is this not defined as a constant in the INTENT class.' My IDE does not recognize Intent.EXTRA_ALLOW_MULTIPLE. I have API level 18 installed. My IDE says: "
+        android:id="@+id/etx_Test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       	android:ellipsize="end"
+       	android:maxLines="2"
+       	/>
+
+    
+	<TextView
+        android:text="I know this but as i mention in my answer: 'The sad thing is that i can't find this no where in the developers.android guide and also is this not defined as a constant in the INTENT class.' My IDE does not recognize Intent.EXTRA_ALLOW_MULTIPLE. I have API level 18 installed. My IDE says: "
+        android:id="@+id/tx_Test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       	android:textColor="#777777"
+       	/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+</LinearLayout>
